@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pathfinder</title>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script type="text/javascript" src="js/transit.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    
+    <div id="panel-wpr" class="row">
+      <div id="info">
+        <div>
+          <h2>Transit directions</h2>
+        </div>
+        <div class="form-group"> 
+          <label>Where are you?</label>
+          <input class="input form-control" id="from" value="Where are you?">
+          <br>
+          <label>Where do you want to go?</label>
+          <input class="input form-control" id="to" value="Where do you want to go?">
+        </div>
+        <div class="btn">
+          <button id="go">Get Directions</button>
+        </div>
+      </div>
+      <div id="panel"></div>
+    </div>
+    <div id="map" class="row"></div>
+  </body>
+</html>

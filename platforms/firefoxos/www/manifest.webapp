@@ -1,0 +1,18 @@
+{
+  "launch_path": "/index.html",
+  "installs_allowed_from": [
+    "*"
+  ],
+  "version": "0.0.1",
+  "name": "Pathfinder",
+  "description": "A transit details providing app. Uses Google Map's API",
+  "developer": {
+    "name": "returnTrue",
+    "url": "http://sivasubramanyam.me"
+  },
+  "icons": {
+    "32": "img/logo1.png",
+    "60": "img/logo.png",
+    "128": "img/logo2.png"
+  }
+}
